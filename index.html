@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Projeto DevClub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <p class="nome">Lucia</p>
+
+    <img class="personagem" src="img/lucia.png" alt="Lucia" />
+
+    <div class="textos">
+      <p class="selecionar">Selecione o seu personagem</p>
+
+      <h1>
+        Não é só <br />
+        um Jogo!
+      </h1>
+
+      <p class="escolha">
+        Escolha uma lenda de Dev City. ou tire uma selfie e vire uma!
+      </p>
+    </div>
+
+    <div class="menu">
+      <img
+        onclick="escolherPersonagem('Lucia', 'img/lucia.png', '#ff3cac')"
+        class="avatar"
+        src="img/lucia.png"
+        alt="Lucia"
+      />
+
+      <img
+        onclick="escolherPersonagem('Jason', 'img/jason.png', '#00b2c9')"
+        class="avatar"
+        src="img/jason.png"
+        alt="Jason"
+      />
+
+      <img
+        onclick="escolherPersonagem('CJ', 'img/cj.png', '#7ed37e')"
+        class="avatar"
+        src="img/cj.png"
+        alt="CJ"
+      />
+
+      <label class="emote"
+        >📷
+
+        <input type="file" accept="image/*" hidden onchange="lerFoto(this)" />
+      </label>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <script src="https://js.puter.com/v2/"></script>
+</html>

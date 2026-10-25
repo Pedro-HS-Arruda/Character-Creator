@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bangers', cursive;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("img/background2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    font-size: 72px;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.nome {
+    color : #ff3cac;
+    font-size: 360px;
+    position: absolute;
+    bottom: 500px;
+    text-align: center;
+    width: 100%;
+}
+
+.personagem {
+    position: absolute;
+    bottom: 0;
+    height: 700px;
+    margin:auto;
+    left: 0;
+    right: 0;
+}
+
+.textos{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+
+}
+
+.selecionar {
+    color: #ffd319;
+    font-size: 26px;
+}
+
+.escolha{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.menu {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.avatar {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 2px solid #ffffff;
+}
+
+.emote {
+    background-color: #ffd319;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 30px;
+}

@@ -1,0 +1,1 @@
+Escolha um dos personagens para exibi-lo na tela ou clique no ícone de câmera para enviar uma foto e transformá-la em um personagem no estilo de videogame. A imagem gerada aparecerá no lugar do personagem selecionado. Envie apenas uma foto que você se sinta confortável em compartilhar com um serviço externo de inteligência artificial.
