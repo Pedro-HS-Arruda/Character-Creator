@@ -1,9 +1,6 @@
 let nome = document.querySelector(".nome");
 let personagem = document.querySelector(".personagem");
 
-console.log(nome);
-console.log(personagem);
-
 function escolherPersonagem(nomePersonagem, imgPersonagem, corPersonagem) {
   nome.innerHTML = nomePersonagem;
   personagem.src = imgPersonagem;
